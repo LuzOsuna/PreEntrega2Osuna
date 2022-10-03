@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* ---Header--- */
+
+.header{
+    background-color: rgb(60, 106, 106);
+    color: aliceblue;
+    padding: 20px;
+}
+
+.header__tittle{
+    text-align: center;
+
+}
+
+.header__nav ul {
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+@media (min-width:768px){
+    .header{ 
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__nav{
+        width: 35%;
+    }
+}
+
+@media (min-width:1024px) {
+    .header nav{
+    width: 30%;
+    }
+}
+@media(min-width:1200px){
+    .header nav{
+        width: 25%;
+    }
+}
+
+.footer{
+    background-image: url(../assets/footerportada.jpg);
+    height: 150px;
+    width: 100%;
+
+    padding: 50px;
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 1.3rem;
+    justify-content: space-around;
+}
+.iconos__redes {
+    font-size: 2rem;
+    color: rgb(60, 106, 106);
+    text-align: left;
+}
+@media(min-width: 320px){
+    .footer{ 
+        background-image: url(../assets/footer-mobile.jpg);
+       
+        height: 100px;
+        width: 100%;
+    }    
+    .iconos__redes{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+}
+
+@media (min-width:768px) {
+    .footer{
+        background-image:url(../assets/mobile768.jpg);
+        height: 100px;
+        width:100%;
+    }
+    
+}
+
+
+
+
+/* destacados de la semana */
+
+.destacados__portada {
+    background-color: rgb(156, 155, 156);
+    padding: 20px;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 1.3rem
+}
+
+/* tarjeta musica */
+.tarjeta__apocalypse {
+    background-color: rgb(60, 106, 106);
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.tarjeta__imagenes {
+    width: 15rem;
+}
+
+@media(min-width:1024px){
+    .tarjeta__apocalypse{
+    height: 400px; 
+    }
+    .tarjeta__imagenes{
+        width: 20rem;
+    }
+    
+}
+
+.slider {
+    display: flex;
+    overflow: auto;
+}
+
+/* Ultimos lanzamientos */
+.ultimos__lanzamientos {
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(60, 106, 106);
+    color: aliceblue;
+    height: 400px;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/* Noticias */
+
+.articulo {
+
+    border: 2px solid black;
+    background-color: rgb(60, 106, 106);
+    color: aliceblue;
+    padding: 5px;
+    /* height: 200px;
+    width: 99%;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+.imagen__noticia {
+    height: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.btn {
+    border: 2px solid rgb(154, 154, 155);
+    background-color: rgb(154, 154, 155);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 1px 5px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.seccion__noticias {
+    padding-left: 30px;
+    margin: 0px 0px 12px;
+    min-width: 800px;
+}
+
+/* Apocalypse letras  */
+
+.subtitulo__letra {
+
+    margin: 0px 0px 15px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+div p {
+    padding-left: 30px;
+    margin: 0px 0px 12px;
+    max-width: 367px;
+}
+
+.card__micuentasinbtn {
+    display: flex;
+    background-color: rgba(60, 106, 106, 0.281);
+    padding: 0px 16px;
+    margin: 30px;
+    border: 2px solid transparent;
+    height: 100px;
+    width: 500px;
+    flex-direction: column;
+}
+
+/* Mi cuenta */
+
+.card__micuenta {
+    display: flex;
+    background-color: rgba(60, 106, 106, 0.281);
+    padding: 0px 16px;
+    margin: 30px;
+    border: 2px solid transparent;
+    height: 150px;
+    width: 500px;
+    flex-direction: column;
+
+}
+
+.contenedor{
+    border: solid transparent 2px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+/* Nosotros */
+.contenedor__formulario {
+    display: flex;
+    background-color: rgba(60, 106, 106, 0.281);
+    text-align: right;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px;
+}
