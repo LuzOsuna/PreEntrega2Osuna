@@ -10,6 +10,24 @@ ul {
 
 a {
     text-decoration: none;
+    color:aliceblue
+}
+body{
+    background-color: rgb(42, 43, 43);
+}
+p{
+    color: aliceblue;
+}
+strong{
+    color: aliceblue;
+}
+span{
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+}
+h3{
     color: aliceblue;
 }
 
@@ -106,10 +124,10 @@ a {
 
 /* tarjeta musica */
 .tarjeta__apocalypse {
-    background-color: rgb(60, 106, 106);
-    padding: 5px;
-    margin: 5px;
-    border: 2px solid black;
+    background-color:rgb(60, 106, 106);
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid;
     width: 350px;
     height: 300px;
     border-radius: 5px;
@@ -154,7 +172,7 @@ a {
 
 .articulo {
 
-    border: 2px solid black;
+    border: 1px solid rgb(42, 43, 43) ;
     background-color: rgb(60, 106, 106);
     color: aliceblue;
     padding: 5px;
@@ -168,10 +186,15 @@ a {
 }
 
 .imagen__noticia {
-    height: 200px;
+    height: 50vw;
     margin: 15px;
     padding: 15px;
 }
+/* @media(min-width:1024px){
+.imagen__noticia{
+    height: 25vw;
+}
+} */
 
 .btn {
     border: 2px solid rgb(154, 154, 155);
@@ -243,6 +266,7 @@ div p {
 .contenedor__formulario {
     display: flex;
     background-color: rgba(60, 106, 106, 0.281);
+    color: aliceblue;
     text-align: right;
     justify-content: space-evenly;
     padding: 15px;
