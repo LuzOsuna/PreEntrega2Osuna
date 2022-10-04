@@ -72,22 +72,23 @@ h3{
 }
 
 .footer{
-    background-image: url(../assets/footerportada.jpg);
-    height: 150px;
+    background-color: rgb(154, 154, 155);
+    /* background-image: url(../assets/footerportada.jpg); */
+    /* height: 150px;
     width: 100%;
 
     padding: 50px;
     margin: 5px 0px;
     text-align: center;
     font-size: 1.3rem;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 .iconos__redes {
     font-size: 2rem;
     color: rgb(60, 106, 106);
     text-align: left;
 }
-@media(min-width: 320px){
+/* @media(min-width: 320px){
     .footer{ 
         background-image: url(../assets/footer-mobile.jpg);
        
@@ -107,7 +108,7 @@ h3{
         width:100%;
     }
     
-}
+} */
 
 
 
@@ -234,7 +235,7 @@ div p {
     padding: 0px 16px;
     margin: 30px;
     border: 2px solid transparent;
-    height: 100px;
+    height: 120px;
     width: 500px;
     flex-direction: column;
 }
@@ -244,24 +245,51 @@ div p {
 .card__micuenta {
     display: flex;
     background-color: rgba(60, 106, 106, 0.281);
-    padding: 0px 16px;
-    margin: 30px;
+    padding: 0px 0px;
+    margin: 5px;
     border: 2px solid transparent;
-    height: 150px;
-    width: 500px;
+    height: 180px;
+    width: 305px;
     flex-direction: column;
 
 }
 
+
+@media(min-width:1024px){
+    .card__micuenta{
+    padding: 0px 15px;
+    margin: 30px;
+    width: 500px;
+    }
+}
+
 .contenedor{
     border: solid transparent 2px;
+}
+
+/* @media(min-widht:600px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+} */
+@media(min-width:600px){
+.contenedor{
 
     display: grid;
     grid-template-columns: 50% 50%;
+   
+}
 }
 
-
-
+audio{
+    width: 300px; ;
+}
+@media(min-width:1024px){
+   audio{
+width: 460px;
+   } 
+}
 /* Nosotros */
 .contenedor__formulario {
     display: flex;
