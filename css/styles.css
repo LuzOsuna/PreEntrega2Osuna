@@ -87,29 +87,19 @@ h3{
     font-size: 2rem;
     color: rgb(60, 106, 106);
     text-align: left;
-}
-/* @media(min-width: 320px){
-    .footer{ 
-        background-image: url(../assets/footer-mobile.jpg);
-       
-        height: 100px;
-        width: 100%;
-    }    
-    .iconos__redes{
-        font-size: 1.5rem;
-        text-align: left;
-    }
+    justify-items: flex-start;
 }
 
-@media (min-width:768px) {
-    .footer{
-        background-image:url(../assets/mobile768.jpg);
-        height: 100px;
-        width:100%;
+.video{
+    width: 280px;
+    height: 157px;
+}
+@media(min-width:770px){
+    .video{
+        width: 560px;
+        height: 315px;
     }
-    
-} */
-
+}
 
 
 
@@ -117,18 +107,20 @@ h3{
 
 .destacados__portada {
     background-color: rgb(156, 155, 156);
-    padding: 20px;
+    padding: 10px;
     margin: 10px 0px;
     text-align: center;
-    font-size: 1.3rem
+    font-size: 1.3rem;
+
 }
 
 /* tarjeta musica */
+
 .tarjeta__apocalypse {
-    background-color:rgb(60, 106, 106);
+    background-color:rgba(60, 106, 106, 0.281);
     padding: 3px;
     margin: 3px;
-    border: 1px solid;
+    border: 1px solid transparent;
     width: 350px;
     height: 300px;
     border-radius: 5px;
@@ -151,12 +143,12 @@ h3{
 
 .slider {
     display: flex;
-    overflow: auto;
+    overflow:auto;
 }
 
 /* Ultimos lanzamientos */
-.ultimos__lanzamientos {
-    border: 2px solid black;
+/* .ultimos__lanzamientos {
+    border: 1px solid transparent;
     text-align: center;
     background-color: rgb(60, 106, 106);
     color: aliceblue;
@@ -167,7 +159,7 @@ h3{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-}
+} */
 
 /* Noticias */
 
@@ -267,12 +259,6 @@ div p {
     border: solid transparent 2px;
 }
 
-/* @media(min-widht:600px){
-    .contenedor{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-} */
 @media(min-width:600px){
 .contenedor{
 
