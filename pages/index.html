@@ -7,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Animate On Scroll Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="../assets/logoparafaviona.png" type="image/x-icon">
     <title>Playstonic</title>
 </head>
 
@@ -27,6 +33,10 @@
                 </a>
                 <a href="../pages/nosotros.html">
                     <li> Nosotros</li>
+                </a>
+                <a href="../pages/carrousel.html">
+                    <li> Prueba
+                    </li>
                 </a>
             </ul>
         </nav>
@@ -57,46 +67,45 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-        </section>
-        <>
+            </section>
 
-            <h2 class= "destacados__portada">Destacados de la semana</h2>
+            <h2 class= "destacados__portada text-center mt-3 animate__animated animate__fadeInDown">Destacados de la semana</h2>
 
            
 
             <div class="slider">
-                <article class="tarjeta__apocalypse">
+                <article data-aos="zoom-in" class="tarjeta__apocalypse">
                     <img src="../assets/cas.jpg" alt="Portada del Album Cigarretes After Sex" class="tarjeta__imagenes">
                     <a href="../pages/apocalypse.html">Apocalypse | Cigarretes After Sex</a>
                 </article>
                 <!-- Cada canción rediccionaria a una página como apocalypse.html pero con su respectiva letra y video.Ahora se encunetra linkeada ../pages/apocalypse.html a modo de referencia. -->
 
-                <article class="tarjeta__apocalypse">
+                <article data-aos="zoom-in" class="tarjeta__apocalypse">
                     <img src="../assets/a-night-at-opera.jpg" alt="Portada del Album A Night at Opera"
                         class="tarjeta__imagenes">
                     <a href="../pages/apocalypse.html"> Bohemian Rhrapsody | Queen </a>
                 </article>
 
-                <article class="tarjeta__apocalypse">
+                <article data-aos="zoom-in" class="tarjeta__apocalypse">
                     <img src="../assets/ultraviolence.jpg" alt="Portada del Album Ultraviolence"
                         class="tarjeta__imagenes">
                     <a href="../pages/apocalypse.html"> Brooklyn Baby | Lana del Rey</a>
                 </article>
 
-                <article class="tarjeta__apocalypse">
+                <article data-aos="zoom-in" class="tarjeta__apocalypse">
                     <img src="../assets/houndsoflove2.jpg" alt="Portada del Album Hounds of Love"
                         class="tarjeta__imagenes">
                     <a href="../pages/apocalypse.html">Running Up That Hill | Kate Bush</a>
                 </article>
 
 
-                <article class="tarjeta__apocalypse">
+                <article data-aos="zoom-in" class="tarjeta__apocalypse">
                     <img src="../assets/articsmonkeys.jpg" alt="Portada del Album Favourite Worst Nightmare"
                         class="tarjeta__imagenes">
                     <a href="../pages/apocalypse.html"> 505 | Arctic Monkeys</a>
                 </article>
 
-                <article class="tarjeta__apocalypse">
+                <article data-aos="zoom-in" class="tarjeta__apocalypse">
                     <img src="../assets/miley-cyrus-plastic-hearts-resena.jpg" alt="Portada del Album Plastic Hearts"
                         class="tarjeta__imagenes">
                     <a href="../pages/apocalypse.html"> Heart Of Glass | Miley Cyrus</a>
@@ -154,6 +163,10 @@
         </section>
     </main>
     <script src="../js/bootstrap.bundle.min.js"> </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 <footer class="footer">
     <img src="../assets/footerportada.jpg" class="img-fluid" alt="imagen de un tocadisco">

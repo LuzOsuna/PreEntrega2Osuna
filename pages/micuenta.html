@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="../assets/logoparafaviona.png" type="image/x-icon">
+
     <title>Playstonic</title>
 </head>
 
@@ -41,16 +44,16 @@
                 <section>
                     <h3>Escuchados recientemente</h3>
                     <!-- Cada canción rediccionaria a una página como apocalypse.html pero con su respectiva letra y video.Ahora se encunetra linkeada ../pages/apocalypse.html a modo de referencia. -->
-                    <div class="card__micuenta">
+                    <div data-aos="zoom-in" class="card__micuenta">
                         <span> Adiós</span>
                         <span>Gustavo Cerati</span>
                         <span>Ahi vamos</span>
-                        <audio controls src="../assets/gustavo-cerati-adios-official-video.mp3"></audio>
+                        <audio controls src="../assets/gustavo-cerati-adios-official-video.mp3" class="animate__animated"></audio>
                         <a href="../pages/apocalypse.html" class="btn"> Ver letra y video</a>
 
                     </div>
 
-                    <div class="card__micuenta">
+                    <div data-aos="zoom-in" class="card__micuenta">
 
                         <span> Brandy(You're a Fine girl) </span>
                         <span> Looking Glass</span>
@@ -58,7 +61,7 @@
                         <audio controls src="../assets/brandy-youre-a-fine-girl-official-audio.mp3"></audio>
                         <a href="../pages/apocalypse.html" class="btn"> Ver letra y video</a>
                     </div>
-                    <div class="card__micuenta">
+                    <div data-aos="zoom-in" class="card__micuenta">
 
                         <span> Starman </span>
                         <span> David Bowie</span>
@@ -66,7 +69,7 @@
                         <audio controls src="../assets/starman-2012-remaster.mp3"></audio>
                         <a href="../pages/apocalypse.html" class="btn"> Ver letra y video</a>
                     </div>
-                    <div class="card__micuenta">
+                    <div data-aos="zoom-in" class="card__micuenta">
 
                         <span> The Chain </span>
                         <span> Fleetwood Mac </span>
@@ -78,7 +81,7 @@
 
                 <section>
                     <h3>Favoritos</h3>
-                    <div class="card__micuenta">
+                    <div data-aos="zoom-in" class="card__micuenta">
                         <span> Adiós</span>
                         <span>Gustavo Cerati</span>
                         <span>Ahi vamos</span>
@@ -87,7 +90,7 @@
 
                     </div>
 
-                    <div class="card__micuenta">
+                    <div data-aos="zoom-in" class="card__micuenta">
 
                         <span> Brandy(You're a Fine girl) </span>
                         <span> Looking Glass</span>
@@ -95,7 +98,7 @@
                         <audio controls src="../assets/brandy-youre-a-fine-girl-official-audio.mp3"></audio>
                         <a href="../pages/apocalypse.html" class="btn"> Ver letra y video</a>
                     </div>
-                    <div class="card__micuenta">
+                    <div data-aos="zoom-in" class="card__micuenta">
 
                         <span> Starman </span>
                         <span> David Bowie</span>
@@ -103,7 +106,7 @@
                         <audio controls src="../assets/starman-2012-remaster.mp3"></audio>
                         <a href="../pages/apocalypse.html" class="btn"> Ver letra y video</a>
                     </div>
-                    <div class="card__micuenta">
+                    <div data-aos="zoom-in" class="card__micuenta">
 
                         <span> The Chain </span>
                         <span> Fleetwood Mac </span>
@@ -116,6 +119,10 @@
 
         </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 <!-- FOOTER -->
