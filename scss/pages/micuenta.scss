@@ -1,0 +1,42 @@
+.card__micuenta {
+    display: flex;
+    background-color: rgba(60, 106, 106, 0.281);
+    padding: 0px 0px;
+    margin: 5px;
+    border: 2px solid transparent;
+    height: 180px;
+    width: 305px;
+    flex-direction: column;
+
+}
+
+
+@media(min-width:1024px){
+    .card__micuenta{
+    padding: 0px 15px;
+    margin: 30px;
+    width: 500px;
+    }
+}
+
+.contenedor{
+    border: solid transparent 2px;
+}
+
+@media(min-width:600px){
+.contenedor{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+}
+
+audio{
+    width: 300px; ;
+}
+@media(min-width:1024px){
+   audio{
+width: 460px;
+   } 
+}

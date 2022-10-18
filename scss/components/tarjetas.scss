@@ -1,0 +1,29 @@
+.tarjeta__apocalypse {
+    background-color:rgba(60, 106, 106, 0.281);
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid transparent;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.tarjeta__imagenes {
+    width: 15rem;
+}
+
+@media(min-width:1024px){
+    .tarjeta__apocalypse{
+    height: 400px; 
+    }
+    .tarjeta__imagenes{
+        width: 20rem;
+    }
+    
+}
+
+.slider {
+    display: flex;
+    overflow:auto;
+}

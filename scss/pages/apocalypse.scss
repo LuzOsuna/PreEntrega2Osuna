@@ -1,0 +1,23 @@
+.subtitulo__letra {
+
+    margin: 0px 0px 15px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+div p {
+    padding-left: 30px;
+    margin: 0px 0px 12px;
+    max-width: 367px;
+}
+
+.card__micuentasinbtn {
+    display: flex;
+    background-color: rgba(60, 106, 106, 0.281);
+    padding: 0px 16px;
+    margin: 30px;
+    border: 2px solid transparent;
+    height: 120px;
+    width: 500px;
+    flex-direction: column;
+}
