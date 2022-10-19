@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="../assets/logoparafaviona.sinfondo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        
 
     <title>Playstonic</title>
 </head>
@@ -23,13 +27,13 @@
         <nav class="header__nav">
             <ul>
                 <a href="../pages/micuenta.html">
-                    <li>Mi cuenta</li>
+                    <li>MI CUENTA</li>
                 </a>
                 <a href="../pages/noticias.html">
-                    <li>Noticias</li>
+                    <li>NOTICIAS</li>
                 </a>
                 <a href="../pages/nosotros.html">
-                    <li> Nosotros</li>
+                    <li> NOSOTROS</li>
                 </a>
             </ul>
         </nav>
@@ -42,8 +46,10 @@
             <section class="contenedor">
                 
                 <section>
-                    <h3>Escuchados recientemente</h3>
+                    <div class="container">
+                    <h3 class="subtitulos__micuenta">Escuchados recientemente</h3>
                     <!-- Cada canción rediccionaria a una página como apocalypse.html pero con su respectiva letra y video.Ahora se encunetra linkeada ../pages/apocalypse.html a modo de referencia. -->
+                    
                     <div data-aos="zoom-in" class="card__micuenta">
                         <span> Adiós</span>
                         <span>Gustavo Cerati</span>
@@ -52,7 +58,7 @@
                         <a href="../pages/apocalypse.html" class="btn"> Ver letra y video</a>
 
                     </div>
-
+                
                     <div data-aos="zoom-in" class="card__micuenta">
 
                         <span> Brandy(You're a Fine girl) </span>
@@ -77,11 +83,13 @@
                         <audio controls src="../assets/the-chain-2004-remaster.mp3"></audio>
                         <a href="../pages/apocalypse.html" class="btn"> Ver letra y video</a>
                     </div>
+                    </div>
                 </section>
 
                 <section>
-                    <h3>Favoritos</h3>
-                    <div data-aos="zoom-in" class="card__micuenta">
+                    <div class="container">
+                    <h3 class="subtitulos__micuenta">Favoritos</h3>
+                    <div data-aos="zoom-in" class="card__micuenta ">
                         <span> Adiós</span>
                         <span>Gustavo Cerati</span>
                         <span>Ahi vamos</span>
@@ -114,6 +122,8 @@
                         <audio controls src="../assets/the-chain-2004-remaster.mp3"></audio>
                         <a href="../pages/apocalypse.html" class="btn"> Ver letra y video</a>
                     </div>
+                </div>
+
                 </section>
             </section>
 

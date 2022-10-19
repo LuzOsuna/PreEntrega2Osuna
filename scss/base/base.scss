@@ -1,25 +1,28 @@
 body{
     background-color: rgb(42,43,43);
 }
+
 ul{
     list-style: none;
 }
 a{
-    color: aliceblue;
+    color:$color-font;
     text-decoration: none;
 }
+
+
 p{
-    color: aliceblue;
+    color:$color-font;
 }
 strong{
-    color: aliceblue;
+    color: $color-font;
 }
 span{
-    color: aliceblue;
+    color:$color-font;
 }
 h4{
-    color: aliceblue;
+    color: $color-font;
 }
 h3{
-    color: aliceblue;
+    color:$color-font;
 }

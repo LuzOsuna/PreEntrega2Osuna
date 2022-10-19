@@ -14,10 +14,56 @@ div p {
 .card__micuentasinbtn {
     display: flex;
     background-color: rgba(60, 106, 106, 0.281);
-    padding: 0px 16px;
-    margin: 30px;
+    padding: 0px, 5px;
+    margin: 5px;
     border: 2px solid transparent;
     height: 120px;
-    width: 500px;
+    width: 280px;
     flex-direction: column;
+}
+.card__micuentasinbtn audio {
+    width: 275px;
+  }
+  
+  @media (min-width: 600px) {
+    .card__micuentasinbtn audio {
+      width: 460px;
+    }
+  }
+  @media (min-width: 600px) {
+    .card__micuentasinbtn {
+      padding: 0px 5px;
+      margin: 0px,5px;
+      width: 495px;
+    }
+  }
+
+.video__youtube{
+  height: 0px;
+  padding-bottom: 56.25%;
+  position: relative;    
+}
+
+.video__youtube iframe{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+width: 100%;
+}
+
+.youtube__wrapper{
+width: 90%;
+}
+
+@media(min-width: 600px) {
+  .youtube__wrapper{
+    width: 75%;
+
+  }
+}
+@media(min-width:1024px){
+  .youtube__wrapper{
+    width: 50%;
+  }
 }

@@ -5,38 +5,39 @@
     margin: 5px;
     border: 2px solid transparent;
     height: 180px;
-    width: 305px;
+    width: 280px;
     flex-direction: column;
-
-}
-
-
-@media(min-width:1024px){
-    .card__micuenta{
-    padding: 0px 15px;
-    margin: 30px;
-    width: 500px;
+  }
+  
+  @media (min-width: 1024px) {
+    .card__micuenta {
+      padding: 0px 5px;
+      margin: 0px,5px;
+      width: 495px;
     }
-}
-
-.contenedor{
+  }
+  
+  .contenedor {
     border: solid transparent 2px;
-}
-
-@media(min-width:600px){
-.contenedor{
-
-    display: grid;
-    grid-template-columns: 50% 50%;
-   
-}
-}
-
-audio{
-    width: 300px; ;
-}
-@media(min-width:1024px){
-   audio{
-width: 460px;
-   } 
-}
+  }
+  
+  @media (min-width: 600px) {
+    .contenedor {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  }
+  
+  audio {
+    width: 275px;
+  }
+  
+  @media (min-width: 1024px) {
+    audio {
+      width: 460px;
+    }
+  }
+  
+  .subtitulos__micuenta {
+    font-size: 1.2rem;
+  }
