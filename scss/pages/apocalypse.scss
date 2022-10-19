@@ -37,33 +37,3 @@ div p {
       width: 495px;
     }
   }
-
-.video__youtube{
-  height: 0px;
-  padding-bottom: 56.25%;
-  position: relative;    
-}
-
-.video__youtube iframe{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  height: 100%;
-width: 100%;
-}
-
-.youtube__wrapper{
-width: 90%;
-}
-
-@media(min-width: 600px) {
-  .youtube__wrapper{
-    width: 75%;
-
-  }
-}
-@media(min-width:1024px){
-  .youtube__wrapper{
-    width: 50%;
-  }
-}
