@@ -75,6 +75,15 @@ h3 {
 }
 .footer {
   background-color: rgb(154, 154, 155);
+  /* background-image: url(../assets/footerportada.jpg); */
+  /* height: 150px;
+  width: 100%;
+
+  padding: 50px;
+  margin: 5px 0px;
+  text-align: center;
+  font-size: 1.3rem;
+  justify-content: space-around; */
 }
 
 .iconos__redes {
@@ -100,7 +109,7 @@ h3 {
   padding: 0px 0px;
   margin: 5px;
   border: 2px solid transparent;
-  height: 180px;
+  height: 205px;
   width: 280px;
   flex-direction: column;
 }
@@ -144,6 +153,11 @@ audio {
 div p {
   padding-left: 30px;
   margin: 0px 0px 12px;
+}
+
+.letra p {
+  padding-left: 30px;
+  margin: 0px 0px 12px;
   max-width: 367px;
 }
 
@@ -174,41 +188,17 @@ div p {
     width: 495px;
   }
 }
-.video__youtube {
-  height: 0px;
-  padding-bottom: 56.25%;
-  position: relative;
-}
-
-.video__youtube iframe {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
-}
-
-.youtube__wrapper {
-  width: 90%;
-}
-
-@media (min-width: 600px) {
-  .youtube__wrapper {
-    width: 75%;
-  }
-}
-@media (min-width: 1024px) {
-  .youtube__wrapper {
-    width: 50%;
-  }
-}
 .noticia {
   display: grid;
-  grid-column: 50%, 50%;
 }
 
 .noticia__titulo {
-  font-size: 18px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.noticia p {
+  font-size: 20px;
 }
 
 .destacados__portada {
@@ -258,11 +248,39 @@ div p {
     height: 315px;
   }
 }
+.video__youtube {
+  height: 0px;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video__youtube iframe {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.youtube__wrapper {
+  width: 90%;
+}
+
+@media (min-width: 600px) {
+  .youtube__wrapper {
+    width: 75%;
+  }
+}
+@media (min-width: 1024px) {
+  .youtube__wrapper {
+    width: 50%;
+  }
+}
 .btn {
   border: 2px solid rgb(154, 154, 155);
   background-color: rgb(154, 154, 155);
   border-radius: 15px;
-  margin: 15px;
+  margin: 3px;
   padding: 1px 5px;
   justify-content: space-between;
   align-items: center;

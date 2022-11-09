@@ -1,8 +1,11 @@
 .noticia{
     display: grid;
-    grid-column: 50%, 50%;
 
 }
 .noticia__titulo{
-    font-size: 18px;
+    font-size: 30px;
+    margin: 20px;
+ }
+ .noticia p{
+    font-size: 20px;
  }
